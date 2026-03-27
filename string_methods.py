@@ -6,8 +6,8 @@ def string_methods():
     nombre = "   Grace Hopper   "
     frase = "Python es un gran lenguaje de programacion"
     multilinea = """Linea 1
-    Linea 2
-    Linea 3"""
+Linea 2
+Linea 3"""
     nombre_noespacios = nombre.strip()
     mensaje_noespacios = f"strip: {nombre_noespacios}"
     print(mensaje_noespacios)
