@@ -13,4 +13,3 @@ def casting():
     print(mensaje_precio_descuento)
     mensaje_total = f"Total: {total}"
     print(mensaje_total)
-casting()
