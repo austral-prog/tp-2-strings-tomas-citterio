@@ -15,8 +15,8 @@ def string_info():
     menuletra = f"Ultima letra: {uletra}"
     print(menuletra)
     repetido = palabra[ : ] * 3
-    menrepetido = f"Repetido: {repetido}"
+    menrepetido = f"Repetida: {repetido}"
     print(menrepetido)
     decoracion = ("***"+ palabra + "***")
-    mendecoracion = f"Decoracion: {decoracion}"
+    mendecoracion = f"Decorada: {decoracion}"
     print(mendecoracion)
