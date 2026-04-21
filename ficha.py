@@ -33,7 +33,7 @@ def ficha():
     nombre = nombre_raw.strip().title()
     email = email_raw.lower()
 
-    caracteres = len(nombre.replace(" ", ""))
+    caracteres = len(nombre)
     espacio = nombre.find(" ")
     iniciales = nombre[0] + nombre[espacio + 1]
 
